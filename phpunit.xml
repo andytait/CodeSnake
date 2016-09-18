@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         bootstrap="vendor/autoload.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         syntaxCheck="false"
+>
+    <testsuites>
+        <testsuite name="unit">
+            <directory>./tests/unit</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <blacklist processUncoveredFilesFromWhitelist="false">
+            <directory suffix=".php">./src/vendor</directory>
+            <directory suffix=".php">./tests</directory>
+        </blacklist>
+    </filter>
+</phpunit>
