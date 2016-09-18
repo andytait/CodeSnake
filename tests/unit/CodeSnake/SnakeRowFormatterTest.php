@@ -2,7 +2,7 @@
 
 namespace CodeSnake;
 
-use     CodeSnake\Snake\SnakeRowFormatter;
+use CodeSnake\Snake\SnakeRowFormatter;
 use PHPUnit\Framework\TestCase;
 
 class SnakeRowFormatterTest extends TestCase
