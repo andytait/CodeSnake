@@ -1,5 +1,11 @@
 # CodeSnake
 
+## Installation
+
+```composer install```
+
+- Requires php7
+
 ## Example Usage
 
 ```php console snake```
